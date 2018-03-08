@@ -69,26 +69,35 @@ button:hover{
 	width: 10%;
 }
 
-.back-bar{
-	background-color:#000;
-	display:flex;
-	padding:15px;
-	justify-content:center;
-	position:fixed;
-	bottom:0;
-	left:0;
-	z-index:1002;
+/*backbar*/
+.back-bar {
+    background-color: #000;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1002;
 }
-.back-bar a{
-	color:#fff;
-	font-size:.8rem;
-	cursor:pointer;
-	text-decoration: none;
+.rounded {
+    border-radius: .25rem;
+}
+.back-bar a {
+    color: #fff;
+    font-size: .8rem;
+    cursor: pointer;
+    text-decoration: none;
 }
 .back-bar a span{
-	border:1px solid #fff;
-	padding:10px;
-	font-size:.6rem;
-	margin-right:5px;
-	border-radius: 50%;
+	float: left;
+	margin-top: 7px;
+}
+.back-bar a svg {
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: .6rem;
+    margin-right: 5px;
+    border-radius: 50%;
+    float: left;
 }
